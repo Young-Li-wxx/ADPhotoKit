@@ -6,7 +6,7 @@ let package = Package(
     name: "ADPhotoKit",
     defaultLocalization: "en",
     platforms: [
-        .iOS(.v10)
+        .iOS(.v13)
     ],
     
     products: [
@@ -17,7 +17,7 @@ let package = Package(
     
     dependencies: [
         .package(url: "https://github.com/SnapKit/SnapKit", .upToNextMajor(from: "5.0.1")),
-        .package(url: "https://github.com/onevcat/Kingfisher", from: "6.0.0")
+        .package(url: "https://github.com/onevcat/Kingfisher", from: "8.0.0")
     ],
     
     targets: [
